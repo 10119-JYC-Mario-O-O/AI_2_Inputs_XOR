@@ -6,7 +6,7 @@
     // const hidden_layer2 = tf.layers.dense({units: 3, activation: 'relu'}).apply(hidden_layer1);
     // const output_layer = tf.layers.dense({units: 1, activation: 'sigmoid'}).apply(hidden_layer2);
   
-    // const model = tf.model({inputs: input_layer, outputs: output_layer});
+    // // const model = tf.model({inputs: input_layer, outputs: output_layer});
 
     // const compileParam = { optimizer: tf.train.adam(), loss: 'binaryCrossentropy' };
 
