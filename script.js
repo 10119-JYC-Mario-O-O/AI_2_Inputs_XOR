@@ -31,7 +31,7 @@
 
     // await model.fit(xs, ys, fitParam);
 
-    const predictions = model.predict(tf.tensor2d(Test_Input_Array, [Test_Input_Array.length, 2])).dataSync();
+    const predictions = model.predict(tf.tensor2d(Test_Input_Array, [Test_Input_Array.length, 2])).arraySync();
     console.log(predictions);
 
     // await model.save('downloads://My Model');
